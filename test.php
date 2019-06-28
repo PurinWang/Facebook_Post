@@ -18,8 +18,8 @@
 require_once 'src/facebook.php';
 
 $config = array(
-	"appId"=>'231136113753942',
-	'secret'=>'714b5708718afc191816cd754a205a4f',
+	"appId"=>'',
+	'secret'=>'',
 	'fileUpload'=>true
 );
 $facebook = new Facebook($config);
